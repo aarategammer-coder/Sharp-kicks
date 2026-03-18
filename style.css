@@ -1,6 +1,9 @@
-h1,p,a
+body{
+  background:#ded8c8;
+}
+h1,h2,p,a
 { 
-  font-family:Verdana;
+  font-family: 'Anton', sans-serif;
 }
 .full
 {  
@@ -15,3 +18,40 @@ a:hover{
   text-decoration:underline;  color:black;  font-size:20px;
 }
 
+.type{
+  display:flex;
+  justify-content:space-evenly;
+}
+
+
+.loi img{
+  height:200px;
+  
+}
+.loi{
+  display:flex;
+   justify-content:space-evenly;
+}
+hr{
+   transform: rotate(90deg);
+  border:1px solid black;
+  width:15px;
+}
+li{
+  font-size:20px;
+}
+ul{
+  list-style-type: none;
+}
+footer div{
+  color:grey;
+   font-size:15px;
+  transition:1s;
+}
+footer div:hover{
+font-size:18px;
+}
+footer{
+   display:flex;
+  justify-content:space-evenly;
+}

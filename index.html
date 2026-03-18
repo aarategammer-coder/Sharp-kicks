@@ -4,9 +4,24 @@
     <meta charset="UTF-8">  
     <link rel="stylesheet" href="./style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <title>SharpKicks</title>  
+    <title>Sharp Kicks</title>  
   </head>  
   <body> 
+    <header class="navbar">
+      <div class = "logo-container">
+      <img src="images/logo.png" alt="Sharp Kicks Logo" class="logo-img">
+  <div class="logo">Sharp Kicks</div>
+      </div>
+  <nav class="nav-links" id="navLinks">
+    <a href="#sh">Home</a>
+    <a href="#feature">Shop</a>
+    <a href="#how-it-works">How It Works</a>
+    <a href="#about">About</a>
+    <a href="#faq">FAQ</a>
+  </nav>
+
+  <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+</header>
     <section>
     <div class = "full"  id = "main-content">  
       <section id = "sh">
@@ -167,7 +182,7 @@ that’s what this is all about.
         </ul>
       </section>
       <br>
-      <section>
+      <section id = "faq">
         <h2>FAQ?</h2>
         <p><b>Q: Do you offer COD?</b> <br>
 No, all orders are prepaid to ensure smooth processing.</p>

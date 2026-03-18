@@ -20,6 +20,9 @@ a
 a:hover{ 
    color:black;  font-size:25px;
 }
+.nav-links.active {
+  display: flex;
+}
 button {
   background: rgba(255, 255, 255, 0.1);
   border: 1px solid rgba(255, 255, 255, 0.2);
